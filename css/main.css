@@ -2,20 +2,41 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: lightcyan;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
 
 .Head-Title {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(156, 243, 243);
+    border-radius: 15px;
 }
 
 .Word-Mult-Choice {
+    text-align: initial;
+    border-radius: 8px;
     background-color: lightseagreen;
 }
 
 .Fill-In-Blank {
     background-color: lightseagreen;
+    border-radius: 8px;
 }
 
 .Directions {
-    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: lightcyan;
+}
+
+.Submission {
+    border-radius: 20px;
+}
+
+.questionText {
+    margin-left: 12px;
+    margin-top: 5px;
 }
