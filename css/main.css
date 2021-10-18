@@ -15,13 +15,22 @@
     border-radius: 15px;
 }
 
-.Word-Mult-Choice {
+.WordMultChoice {
+    overflow: auto;
     text-align: initial;
     border-radius: 8px;
     background-color: lightseagreen;
 }
 
-.Fill-In-Blank {
+.FillInTheBlank {
+    overflow: auto;
+    text-align: initial;
+    border-radius: 8px;
+    background-color: lightseagreen;
+}
+
+.ImageQuestion {
+    overflow: auto;
     background-color: lightseagreen;
     border-radius: 8px;
 }
@@ -36,7 +45,17 @@
     border-radius: 20px;
 }
 
-.questionText {
-    margin-left: 12px;
-    margin-top: 5px;
+.Question {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.center {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
