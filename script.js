@@ -21,6 +21,7 @@ function checkQuestionMC(fieldName) {
         question3: "Curtains",
         question4: "Pink",
         question5: "Hungry",
+        question6: "Happy"
     };
     //Finding the field/question with JQuery and seeing what the user input was
     let value = $('input[name = ' + fieldName + ' ]:checked').val()
