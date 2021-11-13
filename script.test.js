@@ -4,32 +4,22 @@
 
 const sum = require("./script")
 
-questionTest1('checks if the function works for question1', () => {
-    const question = 'question1';
-    expect(checkQuestion(question)).anything();
-})
-
-questionTest2('checks if the function works for question2', () => {
-    const question = 'question2';
-    expect(checkQuestion(question)).anything();
-})
-
-questionTest3('checks if the function works for question3', () => {
+questionTest1('checks if MC question runs', () => {
     const question = 'question3';
     expect(checkQuestion(question)).anything();
 })
 
-questionTest4('checks if the function works for question4', () => {
-    const question = 'question4';
-    expect(checkQuestion(question)).anything();
-})
-
-questionTest5('checks if the function works for question5', () => {
+questionTest2('checks if MC question runs', () => {
     const question = 'question5';
     expect(checkQuestion(question)).anything();
 })
 
-questionTest6('checks if the function works for question6', () => {
-    const question = 'question6';
+questionTest3('checks if the FR question runs', () => {
+    const question = 'question7';
+    expect(checkQuestion(question)).anything();
+})
+
+questionTest4('checks if the FR question does not run with a MC question', () => {
+    const question = 'question4';
     expect(checkQuestion(question)).anything();
 })
